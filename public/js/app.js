@@ -56456,14 +56456,20 @@ var render = function() {
                         ? _c(
                             "jet-responsive-nav-link",
                             { attrs: { href: _vm.route("dashboard") } },
-                            [_c("secondary-button", [_vm._v("Dashboard")])],
-                            1
+                            [
+                              _vm._v(
+                                "\n                        Dashboard\n                    "
+                              )
+                            ]
                           )
                         : _c(
                             "jet-responsive-nav-link",
                             { attrs: { href: _vm.route("dashboard") } },
-                            [_c("secondary-button", [_vm._v("Login")])],
-                            1
+                            [
+                              _vm._v(
+                                "\n                        Login\n                    "
+                              )
+                            ]
                           )
                     ],
                     1

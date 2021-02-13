@@ -34,10 +34,10 @@
                 <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="sm:hidden">
                     <div class="pt-2 pb-3 space-y-1">
                         <jet-responsive-nav-link :href="route('dashboard')" v-if="$page.props.user">
-                            <secondary-button>Dashboard</secondary-button>
+                            Dashboard
                         </jet-responsive-nav-link>
                         <jet-responsive-nav-link :href="route('dashboard')" v-else>
-                            <secondary-button>Login</secondary-button>
+                            Login
                         </jet-responsive-nav-link>
                     </div>
                 </div>
