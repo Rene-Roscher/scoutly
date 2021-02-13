@@ -18,8 +18,6 @@ import { InertiaProgress } from '@inertiajs/progress'
 
 InertiaProgress.init();
 
-import dataTables from 'datatables';
-
 Vue.filter('capitalize', function (value) {
     if (!value) return ''
     value = value.toString()

@@ -21,7 +21,7 @@
                                     {{ registredCount }}
                                 </dt>
                                 <dd class="uppercase font-medium text-sm text-gray-500 tracking-wider">
-                                    Registred Users
+                                    REGISTERED USERS
                                 </dd>
                             </dl>
                         </div>

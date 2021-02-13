@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="136eefcc-9f27-43bc-8022-6137ba31617b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/GuestLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/GuestLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,9 +174,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/Crud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../inertia-boiler/app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Rene\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\193.6494.47\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -210,7 +211,7 @@
       <workItem from="1612922043716" duration="14592000" />
       <workItem from="1612989309225" duration="24654000" />
       <workItem from="1613026563476" duration="21951000" />
-      <workItem from="1613141073571" duration="14042000" />
+      <workItem from="1613141073571" duration="20788000" />
     </task>
     <servers />
   </component>
@@ -230,10 +231,10 @@
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
     <state x="2088" y="290" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/62.0.3778.1080/1246.-768.1366.738@62.0.3778.1080" timestamp="1613158111983" />
-    <state x="2201" y="344" key="FileChooserDialogImpl" timestamp="1612994192667">
+    <state x="2201" y="344" key="FileChooserDialogImpl" timestamp="1613184652262">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state x="2201" y="344" key="FileChooserDialogImpl/62.0.3778.1080/1246.-768.1366.738@62.0.3778.1080" timestamp="1612994192667" />
+    <state x="2201" y="344" key="FileChooserDialogImpl/62.0.3778.1080/1246.-768.1366.738@62.0.3778.1080" timestamp="1613184652262" />
     <state width="2451" height="241" key="GridCell.Tab.0.bottom" timestamp="1613015573946">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
