@@ -3373,6 +3373,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -56425,6 +56435,39 @@ var render = function() {
                       ]
                     )
                   ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "sm:hidden",
+                  class: {
+                    block: _vm.showingNavigationDropdown,
+                    hidden: !_vm.showingNavigationDropdown
+                  }
+                },
+                [
+                  _c(
+                    "div",
+                    { staticClass: "pt-2 pb-3 space-y-1" },
+                    [
+                      _vm.$page.props.user
+                        ? _c(
+                            "jet-responsive-nav-link",
+                            { attrs: { href: _vm.route("dashboard") } },
+                            [_c("secondary-button", [_vm._v("Dashboard")])],
+                            1
+                          )
+                        : _c(
+                            "jet-responsive-nav-link",
+                            { attrs: { href: _vm.route("dashboard") } },
+                            [_c("secondary-button", [_vm._v("Login")])],
+                            1
+                          )
+                    ],
+                    1
+                  )
                 ]
               )
             ]
