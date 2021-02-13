@@ -49,6 +49,10 @@
             <portal-target name="modal" multiple>
             </portal-target>
         </div>
+        <div class='w-full text-center border-t border-grey p-4'>
+            <inertia-link :href="route('imprint')" class="border-r border-1 px-4">Imprint</inertia-link>
+            <inertia-link :href="route('privacy-policy')" class="px-2">Privacy Policy</inertia-link>
+        </div>
     </div>
 </template>
 
