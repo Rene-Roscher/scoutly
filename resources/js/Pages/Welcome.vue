@@ -12,6 +12,7 @@
                     <inertia-table
                         :data="organisations"
                         id="id"
+                        :headings="headings"
                         @item-selected="show"
                         :columns="columns">
                         <template slot-scope="column" slot="#">
@@ -36,6 +37,7 @@
         props: {
             organisations: Array,
             columns: Array,
+            headings: Array,
         },
         components: {
             InertiaTable, GuestLayout
