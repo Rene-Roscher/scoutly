@@ -27,6 +27,7 @@ Route::get('/', function () {
     return Inertia::render('Welcome', [
         'organisations' => \App\Models\Organisation::query()->notPending()->get(),
         'columns' => ['#', 'name', 'datacenter', 'legal', 'type', 'solution'],
+        'headings' => ['Logo', 'Name', 'RZ', 'Legal', 'Type', 'Solution']
     ]);
 })->name('welcome');
 
